@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import Topnav from "./navbar";
 import {Container, Row, Col, Card, CardBody, Navbar} from 'reactstrap';
+
 import Projects from './projects';
-import Stack from "./my_stack"
+import Stack from "./my_stack";
+import Topnav from "./navbar";
 
 class Index extends Component {
 
