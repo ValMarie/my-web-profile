@@ -1,17 +1,27 @@
-import React, {Component} from 'react';
-import Index from './m_profile/index';
+import React, {useEffect} from 'react';
+import MyApp from './m_profile/App';
+import WebFont from "webfontloader"
 
-import './App.css';
 
-class App extends Component {
+const App = () => {
+  useEffect(() => {
+    WebFont.load({
+      google: {
+        families: ['Droid Sans', 'Fredoka One', 'Press Start 2P']
+      }
+    });
+   }, []);
 
-  render(){
   return (
-    <div>
-      <Index/>
+    <div className= "" style= {{backgroundImage: 'url("../image/my_pics.jpg")',
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            backgroundAttachment: "fixed",
+            }}>
+    
+      <MyApp/>
     </div>
   );
-  }
 }
 
 export default App;
