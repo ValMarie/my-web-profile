@@ -11,12 +11,13 @@
     "react": "^16.14.0",
     "react-background-animation": "^1.0.1",
     "react-dom": "^16.14.0",
+    "react-icons": "^4.6.0",
     "react-scripts": "3.4.1",
     "reactstrap": "^8.7.1",
     "webfontloader": "^1.6.28"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

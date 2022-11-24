@@ -1,43 +1,56 @@
-import React from 'react';
-import Stack from "./stack";
-import {Row,Col,Container} from "reactstrap";
+import React from "react";
+import Stack from "../components/stack";
+import { Row, Col, Container, Jumbotron, Card } from "reactstrap";
 
+const Index = (props) => {
+  //     const solution = (A, K) => {
+  //         if (A.length == 0) return [];
+  //         for (i = 0; i < K; i++) {
+  //             A.unshift(A.pop());
+  //         }
 
-const Index = () => {
+  //        return A
+  // //     }
 
-    return ( 
-        <>     
-        <div className= "">
-                    
-            <Row style= {{background : "#000000da",}} >
-                <Col md= {6} style= {{height: "100vh",zIndex: "1" }}>
-                    <h1 className= "text-left pl-5" 
-                        style= {
-                                {fontSize:"4.5em", 
-                                fontFamily: "Fredoka One", 
-                                color:"white", 
-                                // marginRight: "-100vh",
-                                marginTop: "20vh",
-                                
-                                }}>
+  // let n_stk = props.my_stack.length;
+  // let mid_item = 0;
+  // let no_on_stk = n_stk - mid_item;
+  // let stack_position = Math.tan(Math.PI / no_on_stk);
 
-                            Welcome <br/> To A New World of <br/>Web Development
+  //   .container(style=`--m: ${m}; --tan: ${+tan.toFixed(2)}`)
+  // 	 for(let i = 0; i < n_stk; i++){
+  //         a(style=i - has_mid >= 0 ? `--i: ${i}` : null): img(src=imgs[i].src alt=imgs[i].alt)
 
-                    </h1>     
-                </Col>
-                
-                <Col md = {6} className= "" style= {{background : "#000000cc"}}>
-                    <Container  style= {{paddingLeft: "60vh", marginTop: "20vh"}}>
-                        <Stack /> 
-                    </Container>
-                </Col>
-            </Row>
+  //     }
 
+  return (
+      <div className="mask">
+        <div className="row">
+          <div className="col-md-4 col-sm-*">
+            <p className="intro-text ml-5">
+              <strong>
+                <p className="p1"> Hi !</p>
+                <p className="p2">I'm Valentine-Marie</p>
+                <p className="p3"> Full Stack Developer</p>
+              </strong>
+            </p>
+          </div>
+
+          <div className="col-4 col-sm-0"></div>
+          <div className="col-3  col-sm-4 circle-container">
+            <Stack />
+          </div>
         </div>
-                                        
-    </>
+        <div className="row my-2">
+          <div className="col-md-6 col-sm-* mx-auto">
+            <div className=" card drop-card">
+              <div className="card-header">huhijijljj</div>
+              <div className="card-body">guhuhdijsijijfa</div>
+            </div>
+          </div>
+        </div>
+      </div>
   );
-}
+};
 
- 
 export default Index;
