@@ -12,11 +12,14 @@ const About = () => {
           <strong> ABOUT ME </strong>
         </p>
         <p className="">
-          I am a full stack programmer with main focus on Web Application
-          Development My stack strenght lies in several Javascript packages
-          including React, Node, and VueJS. I love the backend logics and the
-          frontend designs. My goal is to shape the world with the flexible
-          tools of programming
+          Hi there! I'm Valentine-Marie Umeh, a passionate web developer with a
+          flair for crafting clean, user-friendly interfaces. I thrive on
+          turning ideas into beautiful, functional websites and applications. My
+          goal is to not just write code, but to create seamless digital
+          experiences that delight users. I thrive in collaborative
+          environments, where I can leverage my creativity and problem-solving
+          abilities to bring projects to life. Let's build something amazing
+          together!
         </p>
       </div>
     </div>

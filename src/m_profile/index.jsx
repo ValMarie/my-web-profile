@@ -26,18 +26,19 @@ const Index = (props) => {
   return (
       <div className="mask">
         <div className="row">
-          <div className="col-md-4 col-sm-*">
+          <div className="col-md-5 col-sm-*">
             <p className="intro-text ml-5">
               <strong>
                 <p className="p1"> Hi !</p>
-                <p className="p2">I'm Valentine-Marie</p>
+                <p className="p2">I'm Valentine-Marie Umeh</p>
                 <p className="p3"> Full Stack Developer</p>
               </strong>
             </p>
           </div>
 
           <div className="col-4 col-sm-0"></div>
-          <div className="col-3  col-sm-4 circle-container">
+
+          <div className="col-3  col-sm-3 circle-container">
             <Stack />
           </div>
         </div>

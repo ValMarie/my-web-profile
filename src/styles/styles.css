@@ -19,8 +19,9 @@
 
 /* navigation */
 .navbar {
-  background: #050505;
-  color: wheat;
+  /* background: #050505; */
+  background: transparent;
+  /* color: #f5f5f5; */
 }
 
 .avatar {
@@ -42,37 +43,38 @@
 
 .navLink-style {
   color: #f5f5f5;
-  font-size: 1.2em;
+  font-size: 1.0em;
+  font-weight: bold;
   justify-content: space-around;
 }
 
 .navLink-style:hover {
   font-weight: bold;
-  background: #f5f5f5;
+  background: #f5f5f5ca;
   color: #000;
 }
 
 /* navigation */
 
-/* .circle-container { */
+.circle-container {
 
 /* position: relative;
-  width: 50em;
-  height: 50em;
+  width: 5em;
+  height: 5em;
   padding: 0.5em;
   border: dashed 1px;
   border-radius: 30%;
-  margin: 1.5em auto 0; */
-/* } */
+  margin: 1.5em auto 0;  */
+ }
 
 .circle-container a {
-  display: block;
+  display: inline-block;
   position: absolute;
-  top: 30vh;
-  left: 10vw;
+  top: 50vh;
+  /* left: 10vw; */
   width:3em;
-  height: 3em;
-  margin: 1em;
+  /* height: 2em; */
+  /* margin: 1em;    */
 }
 
 @keyframes rotateIcons {
@@ -87,7 +89,7 @@
 #html {
   transform: translate(22em);
   animation: rotateIcons 8s linear infinite;
-  /* animation-delay: 0.1s; */
+  animation-delay: 0s;
 }
 #css {
   transform: rotate(45deg) translate(22em) rotate(-45deg);
@@ -139,16 +141,16 @@
 .p-abt {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: italic;
-  font-size: 2em;
-  margin-block: 50px;
-  margin-inline: 20vw;
+  font-size: 1.5em;
+  /* margin-block: 30px; */
+  margin-inline: 10vw;
 }
 
 .intro-text {
-  font-size: 3em;
+  font-size: 2.5em;
   font-family: Arial, Helvetica, sans-serif;
   color: #f5f5f5;
-  margin-top: 28vh;
+  margin-top: 20vh;
   display: block;
 }
 
