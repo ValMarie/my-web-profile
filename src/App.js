@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Navigation from "./components/navbar";
 import Index from "./m_profile/index";
 import About from "./m_profile/about";
-// import MyStack from "./m_profile/my_stack";
+import MyStack from "./m_profile/my_stack";
 import "./styles/styles.css";
 
 import WebFont from "webfontloader";
@@ -18,11 +18,11 @@ const App = (props) => {
 
   return (
     <div className="body">
-      <div classNmae="container-fluid">
+      <div classNmae="container-fluid ">
         <Navigation />
         <Index />
         <About />
-        {/* <MyStack /> */}
+        <MyStack />
       </div>
     </div>
   );

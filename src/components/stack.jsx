@@ -182,7 +182,7 @@ const Stack = (props) => {
 
   
   return (
-    <div className="stack-icons">
+    <div className="">
       {my_stack.map((stk) => (
         <a href={stk} key={stk.id}>
           {stk}

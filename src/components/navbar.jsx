@@ -16,7 +16,7 @@ const Navigation = () => {
   const toggle = () => {setIsOpen(!isOpen)}
 
   return (
-    <Navbar expand="md" className="fixed-top ">
+    <Navbar expand="md" className="">
       <NavbarBrand className="">
         <img alt="" className=" avatar" />
       </NavbarBrand>

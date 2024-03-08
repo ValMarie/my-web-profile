@@ -1,6 +1,7 @@
 import React from "react";
 import Stack from "../components/stack";
 import { Row, Col, Container, Jumbotron, Card } from "reactstrap";
+import MyStack from "./my_stack";
 
 const Index = (props) => {
   //     const solution = (A, K) => {
@@ -24,33 +25,27 @@ const Index = (props) => {
   //     }
 
   return (
-      <div className="mask">
-        <div className="row">
-          <div className="col-md-5 col-sm-*">
-            <p className="intro-text ml-5">
-              <strong>
-                <p className="p1"> Hi !</p>
-                <p className="p2">I'm Valentine-Marie Umeh</p>
-                <p className="p3"> Full Stack Developer</p>
-              </strong>
-            </p>
-          </div>
-
-          <div className="col-4 col-sm-0"></div>
-
-          <div className="col-3  col-sm-3 circle-container">
-            <Stack />
-          </div>
+    <div className="mask">
+      <div className="row">
+        <div className="col-md-5 col-sm-*">
+          <p className="intro-text ml-5">
+            <strong>
+              <p className="p1"> Hi !</p>
+              <p className="p2">I'm Valentine-Marie Umeh</p>
+              <p className="p3"> Full Stack Developer</p>
+            </strong>
+          </p>
         </div>
-        <div className="row my-2">
-          <div className="col-md-6 col-sm-* mx-auto">
-            <div className=" card drop-card">
-              <div className="card-header">huhijijljj</div>
-              <div className="card-body">guhuhdijsijijfa</div>
-            </div>
-          </div>
+
+        <div className="col-4 col-sm-0"></div>
+
+        <div className="col-3  col-sm-2 circle-container">
+          <Stack />
         </div>
       </div>
+
+    
+    </div>
   );
 };
 
