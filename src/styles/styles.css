@@ -19,7 +19,7 @@
 }
 
 .mask2 {
-  background-image: linear-gradient(#000000, #5050506d);
+  background-image: linear-gradient(#000000, #2810416d);
 }
 
 /* navigation */
@@ -37,9 +37,9 @@
 }
 
 .avatar2 {
-  border-radius: 60px;
+  border-radius: 150px;
   height: 60vh;
-  width: 60vh;
+  width: 50vh;
   background-image: url("../image/my_pics.jpg");
   background-size: cover;
   margin-top: 20px;

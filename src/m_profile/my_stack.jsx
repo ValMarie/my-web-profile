@@ -194,7 +194,7 @@ const MyStack = (props) => {
         </div>
 
         <div className="col-md-7 col-sm-* ">
-          <div className=" card drop-card p-2">
+          <div className=" card drop-card p-3">
             <div className="card-header"> STACK NAME</div>
             <div className="card-body p-stack">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
