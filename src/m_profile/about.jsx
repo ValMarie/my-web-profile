@@ -3,15 +3,18 @@ import React from "react";
 const About = () => {
   return (
     <div id="about" className="py-5 abt-me">
-      <div className="row m-3 pt-2">
-        <div className="col-md-3 ">
+          <div className="avatar2 mx-auto mb-3 ">
+            <img alt=""  />
+          </div>
+      {/* <div className="row m-3 pt-2"> */}
+        {/* <div className="col-md-3 ">
           <div>
             <img alt="" className="avatar2 justify-content-center" />
           </div>
-        </div>
+        </div> */}
 
-        <div className="col-md-9 ">
-          <div className="p-abt text-center text-white">
+        <div className="col-md-* ">
+          <div className="p-abt text-center">
             <p className="p-title ">
               <strong> ABOUT ME </strong>
             </p>
@@ -27,7 +30,7 @@ const About = () => {
             </p>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </div>
   );
 };

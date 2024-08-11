@@ -18,8 +18,10 @@ const ImageSlider = ({ images }) => {
 
   const settings = {
     centerMode: true,
-    centerPadding: "100px",
+    centerPadding: "50px",
     dots: false,
+    arrows: false,
+    adaptiveHeight:true,
     infinite: true,
     autoplay: true,
     autoplaySpeed: 5000,
@@ -28,6 +30,7 @@ const ImageSlider = ({ images }) => {
     slidesToShow: Math.min(images.length, 1), // Maximum of 3 columns
     slidesToScroll: 1,
     focusnChange: true,
+    focusnSelect: true,
     responsive: [
       {
         breakpoint: 768, // Adjust as needed

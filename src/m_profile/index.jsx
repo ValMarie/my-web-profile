@@ -28,7 +28,7 @@ const Index = (props) => {
     <div className="mask">
       <div className="row">
         <div className="col-md-5 col-sm-*">
-          <p className="intro-text ml-5">
+          <p className="intro-text mx-5">
             <strong>
               <p className="p1"> Hi !</p>
               <p className="p2">I'm Valentine-Marie Umeh</p>
@@ -37,9 +37,9 @@ const Index = (props) => {
           </p>
         </div>
 
-        <div className="col-4 col-sm-0"></div>
+        <div className="col-md-4 ">  </div>
 
-        <div className="col-3  col-sm-2 circle-container">
+        <div className="col-md-3 col-sm-4 circle-container">
           <Stack />
         </div>
       </div>

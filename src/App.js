@@ -23,6 +23,8 @@ const App = (props) => {
         <Index />
         <About />
         <MyStack />
+        {/* <Projects />
+        <Contact /> */}
       </div>
     </div>
   );
