@@ -21,11 +21,10 @@ const ImageSlider = ({ images }) => {
     centerPadding: "50px",
     dots: false,
     arrows: false,
-    adaptiveHeight:true,
+    adaptiveHeight: true,
     infinite: true,
     autoplay: true,
     autoplaySpeed: 5000,
-    adaptiveHeight: true,
     speed: 500,
     slidesToShow: Math.min(images.length, 1), // Maximum of 3 columns
     slidesToScroll: 1,
@@ -42,11 +41,17 @@ const ImageSlider = ({ images }) => {
   };
 
   return (
-    <Slider {...settings}>
-      {images.map((image, index) => (
-        <div key={index}>{image}</div>
-      ))}
-    </Slider>
+    <div className="carousel-container">
+      <Slider {...settings}>
+        {images.map((image, index) => (
+          <div className="">
+            <div key={image.id} alt={`Slide ${index}`}>
+              {image.item}
+            </div>
+          </div>
+        ))}
+      </Slider>
+    </div>
   );
 };
 

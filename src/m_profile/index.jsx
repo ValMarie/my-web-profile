@@ -37,14 +37,12 @@ const Index = (props) => {
           </p>
         </div>
 
-        <div className="col-md-4 ">  </div>
+        <div className="col-md-4 "> </div>
 
         <div className="col-md-3 col-sm-4 circle-container">
           <Stack />
         </div>
       </div>
-
-    
     </div>
   );
 };

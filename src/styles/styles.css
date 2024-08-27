@@ -167,7 +167,7 @@
 
 .abt-me {
   /* background: radial-gradient(closest-side at 120px, #505050, #000000fd 100%); */
-  background: linear-gradient(#000000fd 80%, #505050 20%, #000000fd 50% );
+  background: linear-gradient(#000000fd 80%, #505050 20%, #000000fd 50%);
 }
 
 .p-abt {
@@ -208,7 +208,7 @@
   color: #06cad4f6;
 }
 
-.p2  {
+.p2 {
   font-size: 1.2em;
   color: #efeaf5;
 }
@@ -216,4 +216,30 @@
 .p3 {
   font-size: 0.65em;
   color: #72fb10;
+}
+
+/* carousel-slider */
+.slick-slide {
+  transform: scale(0.65);
+  transition: all 0.4s ease-in-out;
+  padding: 8px;
+}
+
+.slick-slide img {
+  max-width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.slick-center {
+  transform: scale(1.1);
+}
+
+.carousel-container {
+  width: 100%;
+  margin: auto;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
 }
