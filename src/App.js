@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import Navigation from "./components/navbar";
-import Index from "./m_profile/index";
-import About from "./m_profile/about";
-import MyStack from "./m_profile/my_stack";
+import Index from "./sections/index";
+import About from "./sections/about";
+import MyStack from "./sections/my_stack";
 import "./styles/styles.css";
 
 import WebFont from "webfontloader";

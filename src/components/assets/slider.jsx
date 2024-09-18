@@ -3,15 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const ImageSlider = ({ images }) => {
-  // const [currentSlide, setCurrentSlide] = useState[0];
-
-  // const prevSlide = () => {
-  //   setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
-  // };
-
+const ImageSlider = ({ images, setActiveIndex }) => {
   // const nxtSlide = () => {
-  //   setCurrentSlide(
+  //   setActiveIndex(
   //     (prevSlide) => (prevSlide - 1 + images.length) % images.length
   //   );
   // };
@@ -38,6 +32,7 @@ const ImageSlider = ({ images }) => {
         },
       },
     ],
+    afterChange: (current) => setActiveIndex(current),
   };
 
   return (
@@ -45,8 +40,8 @@ const ImageSlider = ({ images }) => {
       <Slider {...settings}>
         {images.map((image, index) => (
           <div className="">
-            <div key={image.id} alt={`Slide ${index}`}>
-              {image.item}
+            <div key={index} alt={`Slide ${index}`}>
+              {image}
             </div>
           </div>
         ))}

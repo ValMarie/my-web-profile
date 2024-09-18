@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .body {
   background-image: url("../image/background.svg");
   background-repeat: no-repeat;
@@ -27,7 +21,9 @@
   background: linear-gradient(#000000, #05000b82);
 }
 
+
 /* navigation */
+
 .navbar {
   background: #1e0021c7;
 }
@@ -63,7 +59,8 @@
   color: #281041;
 }
 
-/* navigation */
+
+/* devicons */
 
 .circle-container a {
   /* display: inline-block; */
@@ -81,87 +78,50 @@
   }
 }
 
-/* #html {
-  transform: translate(22em);
+.stack-icons{
   animation: rotateIcons 8s linear infinite;
-  animation-delay: 0s;
 }
-#css {
-  transform: rotate(45deg) translate(22em) rotate(-45deg);
-  animation: rotateIcons 8s linear infinite;
-  animation-delay: 1s;
-}
-#js {
-  transform: rotate(90deg) translate(22em) rotate(-90deg);
-  animation: rotateIcons 8s linear infinite;
-  animation-delay: 2s;
-}
-#jquery {
-  transform: rotate(135deg) translate(22em) rotate(-135deg);
-  animation: rotateIcons 8s linear infinite;
-  animation-delay: 3s;
-}
-#python {
-  transform: translate(-22em);
-  animation: rotateIcons 8s linear infinite;
-  animation-delay: 4s;
-}
-#php {
-  transform: rotate(225deg) translate(22em) rotate(-225deg);
-  animation: rotateIcons 8s linear infinite;
-  animation-delay: 5s;
-}
-#react {
-  transform: rotate(270deg) translate(22em) rotate(-270deg);
-  animation: rotateIcons 8s linear infinite;
-  animation-delay: 6s;
-}
-#node {
-  transform: rotate(315deg) translate(22em) rotate(-315deg);
-  animation: rotateIcons 8s linear infinite;
-  animation-delay: 7s;
-} */
 
-#html {
+#devicon-0 {
   transform: translate(22em);
-  animation: rotateIcons 8s linear infinite;
   animation-delay: 0s;
 }
-#css {
+
+#devicon-1 {
   transform: rotate(45deg) translate(22em) rotate(-45deg);
-  animation: rotateIcons 8s linear infinite;
   animation-delay: 1s;
 }
-#js {
+
+#devicon-2 {
   transform: rotate(90deg) translate(22em) rotate(-90deg);
-  animation: rotateIcons 8s linear infinite;
   animation-delay: 2s;
 }
-#jquery {
+
+#devicon-3 {
   transform: rotate(135deg) translate(22em) rotate(-135deg);
-  animation: rotateIcons 8s linear infinite;
   animation-delay: 3s;
 }
-#python {
+
+#devicon-4 {
   transform: translate(-22em);
-  animation: rotateIcons 8s linear infinite;
   animation-delay: 4s;
 }
-#php {
+
+#devicon-5 {
   transform: rotate(225deg) translate(22em) rotate(-225deg);
-  animation: rotateIcons 8s linear infinite;
   animation-delay: 5s;
 }
-#react {
+
+#devicon-6 {
   transform: rotate(270deg) translate(22em) rotate(-270deg);
-  animation: rotateIcons 8s linear infinite;
   animation-delay: 6s;
 }
-#node {
+
+#devicon-7 {
   transform: rotate(315deg) translate(22em) rotate(-315deg);
-  animation: rotateIcons 8s linear infinite;
   animation-delay: 7s;
 }
+
 
 /* About */
 
@@ -202,7 +162,9 @@
   color: #efeaf5;
 }
 
+
 /* texts */
+
 .p1 {
   font-size: 0.6em;
   color: #06cad4f6;
@@ -218,7 +180,9 @@
   color: #72fb10;
 }
 
+
 /* carousel-slider */
+
 .slick-slide {
   transform: scale(0.65);
   transition: all 0.4s ease-in-out;

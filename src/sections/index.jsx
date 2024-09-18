@@ -1,7 +1,5 @@
 import React from "react";
-import Stack from "../components/stack";
-import { Row, Col, Container, Jumbotron, Card } from "reactstrap";
-import MyStack from "./my_stack";
+import Stack from "../components/stack_circle";
 
 const Index = (props) => {
   //     const solution = (A, K) => {
@@ -30,8 +28,8 @@ const Index = (props) => {
         <div className="col-md-5 col-sm-*">
           <p className="intro-text mx-5">
             <strong>
-              <p className="p1"> Hi !</p>
-              <p className="p2">I'm Valentine-Marie Umeh</p>
+              <p className="p1"> I'm </p>
+              <p className="p2">Valentine-Marie Umeh</p>
               <p className="p3"> Full Stack Developer</p>
             </strong>
           </p>
